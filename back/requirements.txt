@@ -1,0 +1,3 @@
+Flask
+ariadne
+google-cloud-storage

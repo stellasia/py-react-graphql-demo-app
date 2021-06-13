@@ -1,0 +1,24 @@
+scalar Upload
+
+schema {
+    query: Query
+    mutation: Mutation
+}
+
+type Movie {
+    title: String!
+    released: Int
+    tagLine: String
+    image: Upload
+}
+
+
+type Query {
+    movies: [Movie]
+    movie(title: String!): Movie
+}
+
+
+type Mutation {
+    createMovie(title: String!, released: Int, image: Upload): Movie!
+}

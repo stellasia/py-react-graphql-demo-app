@@ -102,3 +102,13 @@ dist
 
 # TernJS port file
 .tern-port
+
+
+## PYTHON
+__pycache__
+venv
+# emacs specifics
+*~
+
+# test images
+*.png
